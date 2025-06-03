@@ -1,0 +1,86 @@
+{
+  "list": [
+    {
+      "dt": 1702915200,
+      "main": {
+        "temp": 293.15,
+        "feels_like": 292.04,
+        "temp_min": 292.15,
+        "temp_max": 294.15,
+        "pressure": 1012,
+        "humidity": 78,
+        "sea_level": 1015,
+        "grnd_level": 1008
+      },
+      "weather": [
+        {
+          "id": 801,
+          "main": "Clouds",
+          "description": "few clouds",
+          "icon": "02d"
+        }
+      ],
+      "clouds": {
+        "all": 20
+      },
+      "wind": {
+        "speed": 2.06,
+        "deg": 210,
+        "gust": 3.5
+      },
+      "visibility": 10000,
+      "pop": 0.1,
+      "rain": {
+        "3h": 0.2
+      },
+      "dt_txt": "2024-12-18 00:00:00"
+    },
+    {
+      "dt": 1702926000,
+      "main": {
+        "temp": 289.15,
+        "feels_like": 288.00,
+        "temp_min": 288.15,
+        "temp_max": 290.15,
+        "pressure": 1014,
+        "humidity": 83,
+        "sea_level": 1017,
+        "grnd_level": 1010
+      },
+      "weather": [
+        {
+          "id": 500,
+          "main": "Rain",
+          "description": "light rain",
+          "icon": "10n"
+        }
+      ],
+      "clouds": {
+        "all": 75
+      },
+      "wind": {
+        "speed": 1.5,
+        "deg": 180,
+        "gust": 2.1
+      },
+      "visibility": 8000,
+      "pop": 0.6,
+      "rain": {
+        "3h": 1.0
+      },
+      "dt_txt": "2024-12-18 03:00:00"
+    }
+  ],
+  "city": {
+    "id": 5368361,
+    "name": "Los Angeles",
+    "coord": {
+      "lon": -118.2437,
+      "lat": 34.0522
+    },
+    "country": "US",
+    "timezone": -28800,
+    "sunrise": 1702897200,
+    "sunset": 1702935600
+  }
+}
