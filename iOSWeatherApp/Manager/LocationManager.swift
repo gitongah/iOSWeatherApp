@@ -9,6 +9,7 @@ import Foundation
 import CoreLocation
 
 class LocationManager: NSObject, CLLocationManagerDelegate, ObservableObject {
+    private var lastLocation: CLLocation?
     
     @Published var location: CLLocationCoordinate2D? {
         didSet {
@@ -50,6 +51,7 @@ class LocationManager: NSObject, CLLocationManagerDelegate, ObservableObject {
     
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
         guard let newLocation = locations.first else { return }
+        manager.stopUpdatingLocation()
         location = newLocation.coordinate
         fetchLocationName(from: newLocation)
     }

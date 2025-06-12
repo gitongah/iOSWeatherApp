@@ -19,12 +19,12 @@ struct ForecastCards: View {
     var isActive: Bool {
         if forDisplayType == .daily {
             if let date = forecast.date {
-                return Calendar.current.isDateInToday(date)
+                return Calendar.current.isDate(.now, equalTo: date, toGranularity: .day)
             }
         }else {
             if forDisplayType == .grouped {
                 if let date = forecast.date {
-                    return Calendar.current.isDateInToday(date)
+                    return Calendar.current.isDate(.now, equalTo: date, toGranularity: .hour)
                 }
             }
         }

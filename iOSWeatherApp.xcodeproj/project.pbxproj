@@ -405,6 +405,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"iOSWeatherApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 4PQACVMA48;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "This Application requires you location to provide accurate Weather Data";
@@ -435,6 +436,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"iOSWeatherApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 4PQACVMA48;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "This Application requires you location to provide accurate Weather Data";
